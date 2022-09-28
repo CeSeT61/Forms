@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Kayıt Formu</h1>
+
+        <hr> <br>
+
+        <form action="kayıt" method="post">
+
+            <input type="text" name="isim" class="bilgi" placeholder="İsim Giriniz"> <br><br>
+
+            <input type="password" name="sifre" class="bilgi" placeholder="Şifre Giriniz"> <br><br>
+
+            <textarea name="textarea" cols="30" rows="10" placeholder="Detayları Ekleyiniz"></textarea> <br><br>
+
+             Bayan <input type="radio" value="bayan" name="cinsiyet" class="radio"> <br><br>
+             Bay <input type="radio" value="bay" name="cinsiyet" class="radio"> <br><br>  
+
+            <input type="checkbox" name="sozlesme" class="check"> Gizlilik Sözleşmesi <br><br>
+
+            <input type="hidden" name="gizli">
+
+            <select name="ulke">
+                <option value="">Ulke Seciniz</option>
+                <option value="01">Adana</option>
+                <option value="02">Adıyaman</option>
+                <option value="03">Afyon</option>
+                <option value="04">Ağrı</option>
+                <option value="05">Amasya</option>
+                <option value="06">Ankara</option>
+            </select> <br><br>
+
+            <input class="btn" type="reset">
+            <input class="btn" type="submit">
+
+        </form>
+    </div>
+</body>
+</html>

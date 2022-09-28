@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.container{
+    width: 75%;
+    background-color: rgb(255, 98, 98);
+    margin: 10px auto;
+    border: 2px solid #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+textarea{
+    resize: none;
+    border: 1px solid #222;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightblue;
+}
+.btn{
+    width: 60px;
+    padding: 6px;
+    border: 1px solid #222;
+    border-radius: 6px;
+    background-color: rgb(25, 25, 180);
+    color: #eee;
+}
+.btn:hover{
+    background-color: lightblue;
+    color: #222;
+}
+.bilgi{
+    padding: 10px;
+    border: 1px solid #222;
+    border-radius: 10px;
+}
